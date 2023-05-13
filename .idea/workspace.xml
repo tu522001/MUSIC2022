@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="77599ddd-f9bc-47b4-bb01-6a85578c331a" name="Changes" comment="Lấy API Search để tìm kiếm bài hát.">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/data_binding_base_class_source_out/devDebug/out/com/example/music/databinding/ActivityMainBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/data_binding_base_class_source_out/devDebug/out/com/example/music/databinding/ActivityScreenImageBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/data_binding_base_class_source_out/devDebug/out/com/example/music/databinding/FragmentHomeBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/data_binding_base_class_source_out/devDebug/out/com/example/music/databinding/FragmentPlaylistBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/data_binding_base_class_source_out/devDebug/out/com/example/music/databinding/ItemLayoutGenresBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/data_binding_base_class_source_out/devDebug/out/com/example/music/databinding/ItemLayoutNewReleaseBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/data_binding_base_class_source_out/devDebug/out/com/example/music/databinding/ItemLayoutPhotoAboveBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/data_binding_base_class_source_out/devDebug/out/com/example/music/databinding/ItemLayoutSearchBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/data_binding_base_class_source_out/devDebug/out/com/example/music/databinding/ItemLayoutTopDownloadBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/data_binding_base_class_source_out/devDebug/out/com/example/music/databinding/ItemLayoutTopTrendingBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/data_binding_base_class_source_out/devDebug/out/com/example/music/databinding/SplashLayoutBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/data_binding_trigger/devDebug/com/example/music/DataBindingTriggerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/hilt/component_sources/devDebug/com/example/music/App_HiltComponents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/hilt/component_sources/devDebug/com/example/music/DaggerApp_HiltComponents_SingletonC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/hilt/component_sources/devDebug/com/example/music/Hilt_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/hilt/component_trees/devDebug/com/example/music/App_ComponentTreeDeps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/hilt/component_trees/devDebug/dagger/hilt/internal/processedrootsentinel/codegen/_com_example_music_App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/hilt/component_trees/devDebug/hilt_aggregated_deps/_androidx_hilt_lifecycle_ViewModelFactoryModules_ActivityModuleModuleDeps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/hilt/component_trees/devDebug/hilt_aggregated_deps/_androidx_hilt_lifecycle_ViewModelFactoryModules_FragmentModuleModuleDeps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/apk/dev/debug/app-dev-debug.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/apk/dev/debug/output-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/apk_ide_redirect_file/devDebug/redirect.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/data/remote/RemoteData$requestDataPhotoAbove$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/data/remote/RemoteData$requestDataPhotoAbove$response$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/data/remote/service/ApiPhotoAboveService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/data/repository/DataRepository$requestPhotoAbove$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/databinding/ItemLayoutSearchBinding.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/adapter/SearchAdapter$SearchHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/adapter/SearchAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/fragment/SearchFragment$addObservers$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/fragment/SearchFragment$special$$inlined$activityViewModels$default$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/fragment/SearchFragment$special$$inlined$activityViewModels$default$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel$getGenresSongs$1$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel$getGenresSongs$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel$getNetReleaseSongs$1$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel$getNetReleaseSongs$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel$getPhotoAbove$1$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel$getPhotoAbove$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel$getSearchSongs$1$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel$getSearchSongs$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel$getTopDownLoadSongs$1$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel$getTopDownLoadSongs$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel$getTopTrendingSongs$1$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel$getTopTrendingSongs$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel_Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel_HiltModules$BindsModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel_HiltModules$KeyModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel_HiltModules.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel_HiltModules_KeyModule_ProvideFactory$InstanceHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel_HiltModules_KeyModule_ProvideFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel_MembersInjector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/hilt_aggregated_deps/_com_example_music_ui_component_viewmodel_HomeViewModel_HiltModules_BindsModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_classes/devDebug/hilt_aggregated_deps/_com_example_music_ui_component_viewmodel_HomeViewModel_HiltModules_KeyModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/asm_instrumented_project_jars/devDebug/0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/compatible_screen_manifest/devDebug/output-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/data_binding_artifact/devDebug/kaptDevDebugKotlin/com.example.music-br.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/data_binding_artifact/devDebug/kaptDevDebugKotlin/com.example.music-setter_store.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/data_binding_base_class_log_artifact/devDebug/out/com.example.music-binding_classes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/data_binding_dependency_artifacts/devDebug/androidx.databinding.library.baseAdapters-br.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/data_binding_layout_info_type_merge/devDebug/out/item_layout_search-layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/dex/devDebug/mergeLibDexDevDebug/13/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/dex/devDebug/mergeLibDexDevDebug/3/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/dex/devDebug/mergeLibDexDevDebug/7/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/dex/devDebug/mergeLibDexDevDebug/8/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/dex/devDebug/mergeLibDexDevDebug/9/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/devDebug/classes/com/example/music/databinding/ItemLayoutSearchBinding.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/devDebug/classes/com/example/music/ui/component/viewmodel/HomeViewModel_Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/devDebug/classes/com/example/music/ui/component/viewmodel/HomeViewModel_HiltModules$BindsModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/devDebug/classes/com/example/music/ui/component/viewmodel/HomeViewModel_HiltModules$KeyModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/devDebug/classes/com/example/music/ui/component/viewmodel/HomeViewModel_HiltModules.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/devDebug/classes/com/example/music/ui/component/viewmodel/HomeViewModel_HiltModules_KeyModule_ProvideFactory$InstanceHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/devDebug/classes/com/example/music/ui/component/viewmodel/HomeViewModel_HiltModules_KeyModule_ProvideFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/devDebug/classes/com/example/music/ui/component/viewmodel/HomeViewModel_MembersInjector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/devDebug/classes/hilt_aggregated_deps/_com_example_music_ui_component_viewmodel_HomeViewModel_HiltModules_BindsModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/javac/devDebug/classes/hilt_aggregated_deps/_com_example_music_ui_component_viewmodel_HomeViewModel_HiltModules_KeyModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_manifest/devDebug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/devDebug/drawable_custom_bottom_navigation_view.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/devDebug/drawable_custom_round_the_corners.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/devDebug/drawable_image_white.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/devDebug/drawable_image_white1.png.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/devDebug/layout_item_layout_photo_above.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/merged_res/devDebug/layout_item_layout_search.xml.flat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/packaged_manifests/devDebug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/packaged_manifests/devDebug/output-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/processed_res/devDebug/out/resources-devDebug.ap_" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/URIPathHelper.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/androidx/databinding/DataBinderMapperImpl.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/androidx/databinding/DataBindingComponent.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/androidx/databinding/library/baseAdapters/BR.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_ComponentTreeDeps.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_GeneratedInjector.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$ActivityC$Builder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$ActivityC.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$ActivityCBuilderModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$ActivityRetainedC$Builder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$ActivityRetainedC.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$ActivityRetainedCBuilderModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$FragmentC$Builder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$FragmentC.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$FragmentCBuilderModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$ServiceC$Builder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$ServiceC.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$ServiceCBuilderModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$SingletonC.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$ViewC$Builder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$ViewC.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$ViewCBuilderModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$ViewModelC$Builder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$ViewModelC.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$ViewModelCBuilderModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$ViewWithFragmentC$Builder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$ViewWithFragmentC.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents$ViewWithFragmentCBuilderModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/App_HiltComponents.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/BR.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/BuildConfig.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ConstantsKt.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC$ActivityCBuilder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC$ActivityCImpl.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC$ActivityRetainedCBuilder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC$ActivityRetainedCImpl$SwitchingProvider.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC$ActivityRetainedCImpl.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC$Builder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC$FragmentCBuilder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC$FragmentCImpl.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC$ServiceCBuilder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC$ServiceCImpl.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC$SwitchingProvider.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC$ViewCBuilder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC$ViewCImpl.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC$ViewModelCBuilder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC$ViewModelCImpl$SwitchingProvider.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC$ViewModelCImpl.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC$ViewWithFragmentCBuilder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC$ViewWithFragmentCImpl.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DaggerApp_HiltComponents_SingletonC.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DataBinderMapperImpl$InnerBrLookup.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DataBinderMapperImpl$InnerLayoutIdLookup.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DataBinderMapperImpl.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/DataBindingTriggerClass.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/Hilt_App$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/Hilt_App.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/Resource$DataError.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/Resource$Loading.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/Resource$Success.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/Resource.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/frames/DataFrames$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/frames/DataFrames.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/frames/DataFramesJsonAdapter.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/frames/DefinesFrames$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/frames/DefinesFrames.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/frames/DefinesFramesJsonAdapter.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/frames/Frames$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/frames/Frames.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/frames/FramesJsonAdapter.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/frames/Images$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/frames/Images.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/frames/ImagesJsonAdapter.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/localprank/MyAudio.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/localprank/MyFile.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/localprank/MyFolderAudio.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/localprank/MyFolderImage.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/localprank/MyFolderVideo.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/localprank/MyImage.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/localprank/MyVideo.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/login/LoginRequest.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/login/LoginResponse.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/modelSong/Genres$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/modelSong/Genres.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/modelSong/GenresJsonAdapter.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/modelSong/Song$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/modelSong/Song.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/modelSong/SongJsonAdapter.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/prank/MergeVideo$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/prank/MergeVideo.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/prank/MergeVideoJsonAdapter.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/prank/PrankCallContact$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/prank/PrankCallContact.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/prank/PrankCallContactJsonAdapter.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/prank/PrankRecordFolder$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/prank/PrankRecordFolder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/prank/PrankRecordItem$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/prank/PrankRecordItem.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/prank/SoundFolderPrank$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/prank/SoundFolderPrank.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/prank/SoundPrank$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/prank/SoundPrank.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/prank/SoundPrankJsonAdapter.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/prank/VideoPrank$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/prank/VideoPrank.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/prank/VideoPrankJsonAdapter.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/recipes/Recipes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/recipes/RecipesItem$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/recipes/RecipesItem.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/recipes/User$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/recipes/User.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/recipes/UserJsonAdapter.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/response/MyPage$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/response/MyPage.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/response/ResponseCategorySound$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/response/ResponseCategorySound.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/response/ResponseGenres$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/response/ResponseGenres.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/response/ResponsePrankCall$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/response/ResponsePrankCall.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/response/ResponsePrankRecordFolder$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/response/ResponsePrankRecordFolder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/response/ResponsePrankRecordItem$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/response/ResponsePrankRecordItem.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/response/ResponseSong$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/response/ResponseSong.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/response/ResponseSound$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/response/ResponseSound.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/response/ResponseVideo$Creator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/dto/response/ResponseVideo.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/error/Error.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/error/ErrorKt.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/error/mapper/ErrorMapper$errorsMap$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/error/mapper/ErrorMapper.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/error/mapper/ErrorMapperSource.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/error/mapper/ErrorMapper_Factory.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/local/LocalData.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/local/LocalData_Factory.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$processCall$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestCall$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestCall$response$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestCategoryGif$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestCategoryGif$response$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestCategoryVideo$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestCategoryVideo$response$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestDataGenres$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestDataGenres$response$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestDataNewReleaseSong$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestDataNewReleaseSong$response$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestDataPhotoAbove$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestDataPhotoAbove$response$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestDataTopDownLoadSong$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestDataTopDownLoadSong$response$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestDataTopTrendingSong$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestDataTopTrendingSong$response$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestFrames$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestFrames$response$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestItemGif$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestItemGif$response$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestItemVideo$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestItemVideo$response$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestRecipes$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestRecipes$response$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestSound$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestSound$response$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestSoundCategory$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestSoundCategory$response$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestVideo$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData$requestVideo$response$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteDataSource.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/RemoteData_Factory.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/ServiceGenerator.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/ServiceGeneratorKt.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/ServiceGenerator_Factory$InstanceHolder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/ServiceGenerator_Factory.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/service/ApiGenresService.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/service/ApiNewReleaseService.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/service/ApiPhotoAboveService.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/remote/service/FramesService.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$addToFavourite$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$doLogin$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$getAllAudio$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$getAllImage$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$getAllVideo$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$getAllVideoFromFolder$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$isFavourite$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$removeFromFavourite$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$requestCall$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$requestCategoryGif$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$requestCategorySound$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$requestCategoryVideo$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$requestFrames$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$requestFramesImage$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$requestGenres$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$requestItemGif$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$requestItemVideo$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$requestNewReleaseSong$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$requestPhotoAbove$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$requestRecipes$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$requestSound$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$requestTopDownLoadSong$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$requestTopTrendingSong$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository$requestVideo$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepositorySource.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/data/repository/DataRepository_Factory.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/databinding/ActivityMainBinding.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/databinding/ActivityScreenImageBinding.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/databinding/FragmentHomeBinding.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/databinding/FragmentPlaylistBinding.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/databinding/ItemLayoutGenresBinding.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/databinding/ItemLayoutNewReleaseBinding.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/databinding/ItemLayoutPhotoAboveBinding.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/databinding/ItemLayoutSearchBinding.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/databinding/ItemLayoutTopDownloadBinding.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/databinding/ItemLayoutTopTrendingBinding.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/databinding/SplashLayoutBinding.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/di/AppModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/di/AppModule_ProvideCoroutineContextFactory.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/di/AppModule_ProvideLocalRepositoryFactory.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/di/AppModule_ProvideNetworkConnectivityFactory.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/di/DataModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/di/ErrorModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/base/BaseActivity.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/base/BaseFragment$Companion.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/base/BaseFragment.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/base/BaseViewModel.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/base/BaseViewModel_MembersInjector.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/base/ScreenImageActivity.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/base/listeners/RecyclerItemListener.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/activities/Hilt_MainActivity$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/activities/Hilt_MainActivity.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$10.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$3.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$4.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$5.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$6.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$7.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$8.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/activities/MainActivity$special$$inlined$viewModels$default$9.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/activities/MainActivity.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/activities/MainActivity_GeneratedInjector.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/adapter/GenresAdapter$GenresHolder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/adapter/GenresAdapter.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/adapter/NewReleaseAdapter$NewReleaseHolder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/adapter/NewReleaseAdapter.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/adapter/PhotoAboveAdapter.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/adapter/SearchAdapter$SearchHolder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/adapter/SearchAdapter.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/adapter/TopDownloadAdapter$TopDownloadHolder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/adapter/TopDownloadAdapter.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/adapter/TopTrendingAdapter$TopTrendingHolder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/adapter/TopTrendingAdapter.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/Hilt_HomeFragment.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/HomeFragment$addObservers$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/HomeFragment$addObservers$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/HomeFragment$addObservers$3.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/HomeFragment$addObservers$4.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$10.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$3.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$4.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$5.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$6.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$7.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$8.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/HomeFragment$special$$inlined$activityViewModels$default$9.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/HomeFragment.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/HomeFragment_GeneratedInjector.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/SearchFragment$addObservers$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/SearchFragment$special$$inlined$activityViewModels$default$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/fragment/SearchFragment$special$$inlined$activityViewModels$default$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/ChatViewModel$signup$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/ChatViewModel.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/ChatViewModel_Factory.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/ChatViewModel_HiltModules$BindsModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/ChatViewModel_HiltModules$KeyModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/ChatViewModel_HiltModules.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/ChatViewModel_HiltModules_KeyModule_ProvideFactory$InstanceHolder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/ChatViewModel_HiltModules_KeyModule_ProvideFactory.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/ChatViewModel_MembersInjector.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/Hilt_SplashActivity$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/Hilt_SplashActivity.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/ImageViewModel$requestFramesImage$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/ImageViewModel.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/ImageViewModel_Factory.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/ImageViewModel_HiltModules$BindsModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/ImageViewModel_HiltModules$KeyModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/ImageViewModel_HiltModules.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/ImageViewModel_HiltModules_KeyModule_ProvideFactory$InstanceHolder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/ImageViewModel_HiltModules_KeyModule_ProvideFactory.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/ImageViewModel_MembersInjector.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/SlapViewModel.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/SplashActivity$special$$inlined$viewModels$default$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/SplashActivity$special$$inlined$viewModels$default$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/SplashActivity.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/splash/SplashActivity_GeneratedInjector.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel$getGenresSongs$1$1$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel$getGenresSongs$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel$getNetReleaseSongs$1$1$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel$getNetReleaseSongs$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel$getPhotoAbove$1$1$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel$getPhotoAbove$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel$getSearchSongs$1$1$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel$getSearchSongs$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel$getTopDownLoadSongs$1$1$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel$getTopDownLoadSongs$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel$getTopTrendingSongs$1$1$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel$getTopTrendingSongs$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel_Factory.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel_HiltModules$BindsModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel_HiltModules$KeyModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel_HiltModules.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel_HiltModules_KeyModule_ProvideFactory$InstanceHolder.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel_HiltModules_KeyModule_ProvideFactory.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/ui/component/viewmodel/HomeViewModel_MembersInjector.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/usecase/errors/ErrorManager.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/usecase/errors/ErrorManager_Factory.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/usecase/errors/ErrorUseCase.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/AppConstCamera.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/ArchComponentExtKt.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/EspressoIdlingResource.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/EspressoIdlingResourceKt.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/ExtensionConstants.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/FileType.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/FileUtilsEditor$saveExternal$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/FileUtilsEditor.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/Network.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/NetworkConnectivity.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/NetworkUtil.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/Network_Factory.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/NumberUtilsKt.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/RegexUtils.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/SimpleCountingIdlingResource.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/SingleEvent.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/UtilsJava.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/UtilsKotlin.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/VideoQualityExtKt.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/ViewExtKt$afterTextChanged$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/ViewExtKt$showSnackbar$1$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/ViewExtKt.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/clickutils/LibClickAnimUtils$Companion$setOnCustomTouchView$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/clickutils/LibClickAnimUtils$Companion$setOnCustomTouchViewAlphaNotOther$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/clickutils/LibClickAnimUtils$Companion$setOnCustomTouchViewScale$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/clickutils/LibClickAnimUtils$Companion$setOnCustomTouchViewScaleNotOther$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/clickutils/LibClickAnimUtils$Companion$setOnCustomTouchViewScaleNotOtherWithUnit$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/clickutils/LibClickAnimUtils$Companion.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/clickutils/LibClickAnimUtils.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/clickutils/OnCustomClickListener.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/com/example/music/utils/clickutils/OnCustomTouchListener.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/dagger/hilt/internal/aggregatedroot/codegen/_com_example_music_App.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/dagger/hilt/internal/processedrootsentinel/codegen/_com_example_music_App.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/hilt_aggregated_deps/_androidx_hilt_lifecycle_ViewModelFactoryModules_ActivityModuleModuleDeps.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/hilt_aggregated_deps/_androidx_hilt_lifecycle_ViewModelFactoryModules_FragmentModuleModuleDeps.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/hilt_aggregated_deps/_com_example_music_App_GeneratedInjector.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/hilt_aggregated_deps/_com_example_music_di_AppModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/hilt_aggregated_deps/_com_example_music_di_DataModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/hilt_aggregated_deps/_com_example_music_di_ErrorModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/hilt_aggregated_deps/_com_example_music_ui_component_activities_MainActivity_GeneratedInjector.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/hilt_aggregated_deps/_com_example_music_ui_component_fragment_HomeFragment_GeneratedInjector.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/hilt_aggregated_deps/_com_example_music_ui_component_splash_ChatViewModel_HiltModules_BindsModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/hilt_aggregated_deps/_com_example_music_ui_component_splash_ChatViewModel_HiltModules_KeyModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/hilt_aggregated_deps/_com_example_music_ui_component_splash_ImageViewModel_HiltModules_BindsModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/hilt_aggregated_deps/_com_example_music_ui_component_splash_ImageViewModel_HiltModules_KeyModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/hilt_aggregated_deps/_com_example_music_ui_component_splash_SplashActivity_GeneratedInjector.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/hilt_aggregated_deps/_com_example_music_ui_component_viewmodel_HomeViewModel_HiltModules_BindsModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/project_dex_archive/devDebug/out/hilt_aggregated_deps/_com_example_music_ui_component_viewmodel_HomeViewModel_HiltModules_KeyModule.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/stable_resource_ids_file/devDebug/stableIds.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/inline-functions.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/inline-functions.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/inline-functions.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/inline-functions.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/inline-functions.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/inline-functions.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/inline-functions.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/counters.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/kaptGenerateStubsDevDebugKotlin/localstate/build-history.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/outputs/apk/dev/debug/app-dev-debug.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/outputs/apk/dev/debug/output-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-dev-debug-report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileDevDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/hiltJavaCompileDevDebug/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/classes/devDebug/META-INF/proguard/moshi-com.example.music.data.dto.frames.DataFrames.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/classes/devDebug/META-INF/proguard/moshi-com.example.music.data.dto.frames.DefinesFrames.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/classes/devDebug/META-INF/proguard/moshi-com.example.music.data.dto.frames.Frames.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/classes/devDebug/META-INF/proguard/moshi-com.example.music.data.dto.frames.Images.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/classes/devDebug/META-INF/proguard/moshi-com.example.music.data.dto.modelSong.Genres.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/classes/devDebug/META-INF/proguard/moshi-com.example.music.data.dto.modelSong.Song.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/classes/devDebug/META-INF/proguard/moshi-com.example.music.data.dto.prank.MergeVideo.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/classes/devDebug/META-INF/proguard/moshi-com.example.music.data.dto.prank.PrankCallContact.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/classes/devDebug/META-INF/proguard/moshi-com.example.music.data.dto.prank.SoundPrank.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/classes/devDebug/META-INF/proguard/moshi-com.example.music.data.dto.prank.VideoPrank.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/classes/devDebug/META-INF/proguard/moshi-com.example.music.data.dto.recipes.User.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incApCache/devDebug/ap-classpath-entries.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incApCache/devDebug/apt-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incApCache/devDebug/classpath-entries.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incApCache/devDebug/classpath-structure.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incApCache/devDebug/java-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/META-INF/app_devDebug.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/URIPathHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ConstantsKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/Resource$DataError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/Resource$Loading.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/Resource$Success.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/Resource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/frames/DataFrames$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/frames/DataFrames.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/frames/DefinesFrames$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/frames/DefinesFrames.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/frames/Frames$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/frames/Frames.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/frames/Images$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/frames/Images.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/localprank/MyAudio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/localprank/MyFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/localprank/MyFolderAudio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/localprank/MyFolderImage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/localprank/MyFolderVideo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/localprank/MyImage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/localprank/MyVideo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/login/LoginRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/login/LoginResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/modelSong/Genres$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/modelSong/Genres.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/modelSong/Song$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/modelSong/Song.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/prank/MergeVideo$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/prank/MergeVideo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/prank/PrankCallContact$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/prank/PrankCallContact.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/prank/PrankRecordFolder$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/prank/PrankRecordFolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/prank/PrankRecordItem$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/prank/PrankRecordItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/prank/SoundFolderPrank$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/prank/SoundFolderPrank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/prank/SoundPrank$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/prank/SoundPrank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/prank/VideoPrank$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/prank/VideoPrank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/recipes/Recipes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/recipes/RecipesItem$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/recipes/RecipesItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/recipes/User$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/recipes/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/response/MyPage$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/response/MyPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/response/ResponseCategorySound$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/response/ResponseCategorySound.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/response/ResponseGenres$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/response/ResponseGenres.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/response/ResponsePrankCall$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/response/ResponsePrankCall.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/response/ResponsePrankRecordFolder$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/response/ResponsePrankRecordFolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/response/ResponsePrankRecordItem$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/response/ResponsePrankRecordItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/response/ResponseSong$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/response/ResponseSong.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/response/ResponseSound$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/response/ResponseSound.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/response/ResponseVideo$Creator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/dto/response/ResponseVideo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/error/Error.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/error/ErrorKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/error/mapper/ErrorMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/error/mapper/ErrorMapperSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/local/LocalData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/RemoteData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/RemoteDataSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/ServiceGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/ServiceGeneratorKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/moshiFactories/MyKotlinJsonAdapter$Binding.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/moshiFactories/MyKotlinJsonAdapter$IndexedParameterMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/moshiFactories/MyKotlinJsonAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/moshiFactories/MyKotlinJsonAdapterFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/moshiFactories/MyKotlinJsonAdapterKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/service/ApiGenresService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/service/ApiNewReleaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/service/ApiTopDownloadService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/service/ApiTopTrendingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/service/CallContactService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/service/FramesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/service/PrankCallService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/service/PrankFolderGifService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/service/PrankFolderVideoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/service/PrankItemGifService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/service/PrankItemVideoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/service/RecipesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/service/SoundCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/service/SoundService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/remote/service/VideoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/repository/DataRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/data/repository/DataRepositorySource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/di/AppModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/di/DataModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/di/ErrorModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/base/BaseActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/base/BaseFragment$Companion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/base/BaseFragment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/base/BaseViewModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/base/ScreenImageActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/base/listeners/RecyclerItemListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/component/activities/MainActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/component/adapter/GenresAdapter$GenresHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/component/adapter/GenresAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/component/adapter/NewReleaseAdapter$NewReleaseHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/component/adapter/NewReleaseAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/component/adapter/PhotoAboveAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/component/adapter/SearchAdapter$SearchHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/component/adapter/SearchAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/component/adapter/TopDownloadAdapter$TopDownloadHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/component/adapter/TopDownloadAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/component/adapter/TopTrendingAdapter$TopTrendingHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/component/adapter/TopTrendingAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/component/fragment/HomeFragment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/component/splash/ChatViewModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/component/splash/ImageViewModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/component/splash/SlapViewModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/component/splash/SplashActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/usecase/errors/ErrorManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/usecase/errors/ErrorUseCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/ArchComponentExtKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/EspressoIdlingResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/EspressoIdlingResourceKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/ExtensionConstants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/FileType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/FileUtilsEditor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/Network.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/NetworkConnectivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/NetworkUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/NumberUtilsKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/RegexUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/SimpleCountingIdlingResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/SingleEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/UtilsKotlin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/VideoQualityExtKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/ViewExtKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/clickutils/LibClickAnimUtils$Companion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/clickutils/LibClickAnimUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/clickutils/OnCustomClickListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/incrementalData/devDebug/com/example/music/utils/clickutils/OnCustomTouchListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/URIPathHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/URIPathHelper.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/App.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ConstantsKt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ConstantsKt.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/Resource.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/frames/DataFrames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/frames/DataFrames.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/frames/DefinesFrames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/frames/DefinesFrames.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/frames/Frames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/frames/Frames.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/frames/Images.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/frames/Images.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/localprank/MyAudio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/localprank/MyAudio.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/localprank/MyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/localprank/MyFile.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/localprank/MyFolderAudio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/localprank/MyFolderAudio.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/localprank/MyFolderImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/localprank/MyFolderImage.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/localprank/MyFolderVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/localprank/MyFolderVideo.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/localprank/MyImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/localprank/MyImage.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/localprank/MyVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/localprank/MyVideo.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/login/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/login/LoginRequest.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/login/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/login/LoginResponse.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/modelSong/Genres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/modelSong/Genres.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/modelSong/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/modelSong/Song.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/prank/MergeVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/prank/MergeVideo.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/prank/PrankCallContact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/prank/PrankCallContact.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/prank/PrankRecordFolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/prank/PrankRecordFolder.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/prank/PrankRecordItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/prank/PrankRecordItem.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/prank/SoundFolderPrank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/prank/SoundFolderPrank.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/prank/SoundPrank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/prank/SoundPrank.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/prank/VideoPrank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/prank/VideoPrank.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/recipes/Recipes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/recipes/Recipes.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/recipes/RecipesItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/recipes/RecipesItem.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/recipes/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/recipes/User.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/response/MyPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/response/MyPage.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/response/ResponseCategorySound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/response/ResponseCategorySound.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/response/ResponseGenres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/response/ResponseGenres.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/response/ResponsePrankCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/response/ResponsePrankCall.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/response/ResponsePrankRecordFolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/response/ResponsePrankRecordFolder.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/response/ResponsePrankRecordItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/response/ResponsePrankRecordItem.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/response/ResponseSong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/response/ResponseSong.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/response/ResponseSound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/response/ResponseSound.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/response/ResponseVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/dto/response/ResponseVideo.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/error/Error.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/error/Error.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/error/ErrorKt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/error/ErrorKt.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/error/mapper/ErrorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/error/mapper/ErrorMapper.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/error/mapper/ErrorMapperSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/error/mapper/ErrorMapperSource.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/local/LocalData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/local/LocalData.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/RemoteData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/RemoteData.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/RemoteDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/RemoteDataSource.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/ServiceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/ServiceGenerator.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/ServiceGeneratorKt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/ServiceGeneratorKt.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/moshiFactories/MyKotlinJsonAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/moshiFactories/MyKotlinJsonAdapter.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/moshiFactories/MyKotlinJsonAdapterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/moshiFactories/MyKotlinJsonAdapterFactory.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/moshiFactories/MyKotlinJsonAdapterKt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/moshiFactories/MyKotlinJsonAdapterKt.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/ApiGenresService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/ApiGenresService.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/ApiNewReleaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/ApiNewReleaseService.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/ApiTopDownloadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/ApiTopDownloadService.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/ApiTopTrendingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/ApiTopTrendingService.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/CallContactService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/CallContactService.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/FramesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/FramesService.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/PrankCallService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/PrankCallService.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/PrankFolderGifService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/PrankFolderGifService.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/PrankFolderVideoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/PrankFolderVideoService.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/PrankItemGifService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/PrankItemGifService.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/PrankItemVideoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/PrankItemVideoService.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/RecipesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/RecipesService.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/SoundCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/SoundCategoryService.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/SoundService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/SoundService.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/VideoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/remote/service/VideoService.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/repository/DataRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/repository/DataRepository.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/repository/DataRepositorySource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/data/repository/DataRepositorySource.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/di/AppModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/di/AppModule.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/di/DataModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/di/DataModule.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/di/ErrorModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/di/ErrorModule.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/base/BaseActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/base/BaseActivity.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/base/BaseFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/base/BaseFragment.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/base/BaseViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/base/BaseViewModel.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/base/ScreenImageActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/base/ScreenImageActivity.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/base/listeners/RecyclerItemListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/base/listeners/RecyclerItemListener.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/activities/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/activities/MainActivity.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/adapter/GenresAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/adapter/GenresAdapter.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/adapter/NewReleaseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/adapter/NewReleaseAdapter.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/adapter/PhotoAboveAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/adapter/PhotoAboveAdapter.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/adapter/SearchAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/adapter/SearchAdapter.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/adapter/TopDownloadAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/adapter/TopDownloadAdapter.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/adapter/TopTrendingAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/adapter/TopTrendingAdapter.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/fragment/HomeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/fragment/HomeFragment.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/splash/ChatViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/splash/ChatViewModel.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/splash/ImageViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/splash/ImageViewModel.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/splash/SlapViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/splash/SlapViewModel.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/splash/SplashActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/splash/SplashActivity.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/ui/component/viewmodel/HomeViewModel.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/usecase/errors/ErrorManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/usecase/errors/ErrorManager.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/usecase/errors/ErrorUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/usecase/errors/ErrorUseCase.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/ArchComponentExtKt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/ArchComponentExtKt.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/EspressoIdlingResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/EspressoIdlingResource.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/EspressoIdlingResourceKt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/EspressoIdlingResourceKt.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/ExtensionConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/ExtensionConstants.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/FileType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/FileType.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/FileUtilsEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/FileUtilsEditor.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/Network.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/Network.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/NetworkConnectivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/NetworkConnectivity.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/NetworkUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/NetworkUtil.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/NumberUtilsKt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/NumberUtilsKt.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/RegexUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/RegexUtils.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/SimpleCountingIdlingResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/SimpleCountingIdlingResource.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/SingleEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/SingleEvent.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/UtilsKotlin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/UtilsKotlin.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/VideoQualityExtKt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/VideoQualityExtKt.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/ViewExtKt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/ViewExtKt.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/clickutils/LibClickAnimUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/clickutils/LibClickAnimUtils.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/clickutils/OnCustomClickListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/clickutils/OnCustomClickListener.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/clickutils/OnCustomTouchListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/com/example/music/utils/clickutils/OnCustomTouchListener.kapt_metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/kapt3/stubs/devDebug/error/NonExistentClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[4DAYV895JNYPLVSO]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MUSIC2022" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="Kotlin Interface" />
+        <option value="navigationResourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PJRlAhX0cav3xR8UN0cUIb3qxX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="android-custom-viewD:/sdk/sources/android-33/android/view/View.java_SELECTED" value="View" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/res/drawable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Base_Code_CongTy\app\src\main\res\drawable" />
+      <recent name="D:\Base_Code_CongTy\app\src\main\res\menu" />
+      <recent name="D:\Base_Code_CongTy\app\src\main\res" />
+      <recent name="D:\Base_Code_CongTy\app\src\main\res\layout" />
+      <recent name="D:\Base_Code_CongTy\app\src\main\java\com\example\music\ui\component\splash" />
+    </key>
+    <key name="android.template.-1375905605">
+      <recent name="com.example.music.ui.base" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.music.ui.component.viewmodel" />
+      <recent name="com.example.music.data.repository" />
+      <recent name="com.example.music.data.dto.frames" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="MUSIC2022.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+        <option name="PROFILING_MODE" value="NOT_SET" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77599ddd-f9bc-47b4-bb01-6a85578c331a" name="Changes" comment="" />
+      <created>1683173348187</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683173348187</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Hoàn thành call API">
+      <created>1683803796141</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683803796141</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Hoàn thành call API PhotoAbove">
+      <created>1683822289808</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683822289808</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Thiết kế thêm màn hình Home">
+      <created>1683829640694</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683829640694</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ViewModel thêm vào View">
+      <created>1683890443674</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683890443674</updated>
+    </task>
+    <task id="LOCAL-00005" summary="thiết kế màn Play music và lấy dữ liệu">
+      <created>1683916568034</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683916568034</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Tối ưu code gộp hết các ViewModel vào HomeViewModel để dễ quản lý và bảo trì">
+      <created>1683918234004</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683918234004</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Lấy API Search để tìm kiếm bài hát">
+      <created>1684004374898</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684004374898</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Lấy API Search để tìm kiếm bài hát">
+      <created>1684004489955</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684004489955</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Hoàn thành call API" />
+    <MESSAGE value="Hoàn thành call API PhotoAbove" />
+    <MESSAGE value="Thiết kế thêm màn hình Home" />
+    <MESSAGE value="ViewModel thêm vào View" />
+    <MESSAGE value="thiết kế màn Play music và lấy dữ liệu" />
+    <MESSAGE value="Tối ưu code gộp hết các ViewModel vào HomeViewModel để dễ quản lý và bảo trì" />
+    <MESSAGE value="Lấy API Search để tìm kiếm bài hát" />
+    <MESSAGE value="Lấy API Search để tìm kiếm bài hát." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lấy API Search để tìm kiếm bài hát." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/music/data/repository/DataRepository.kt</url>
+          <line>71</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/music/data/repository/DataRepository.kt</url>
+          <line>72</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/music/data/repository/DataRepository.kt</url>
+          <line>70</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/music/ui/component/fragment/HomeFragment.kt</url>
+          <line>188</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/music/ui/component/fragment/HomeFragment.kt</url>
+          <line>237</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/music/ui/component/fragment/HomeFragment.kt</url>
+          <line>236</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="AndroidRunConfigurationType">
+        <watch expression="releaseViewModel" language="kotlin" />
+        <watch expression="topDownLoadViewModel.getTopDownLoadSongs" language="kotlin" />
+        <watch expression="topDownLoadViewModel" language="kotlin" />
+        <watch expression="topDownLoadViewModel.topDownLoadSongs" language="kotlin" />
+        <watch expression="topDownLoadViewModel.topDownLoadSongs" language="kotlin" />
+        <watch expression="it" language="kotlin" />
+        <watch expression="ads" language="kotlin" />
+        <watch expression="it.ads" language="kotlin" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
